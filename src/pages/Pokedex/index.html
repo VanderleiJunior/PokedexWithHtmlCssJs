@@ -1,34 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Karla&family=Rubik&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Karla&family=Rubik&family=Source+Sans+3&display=swap"
-            rel="stylesheet"
-        />
-        <title>Document</title>
-    </head>
-    <body>
-        <header>
-            <img src="../../images/Logo.svg"Logo" />
-            <nav>
-                <a href="../../../index.html">Home</a>
-                <a href="../Pokedex/index.html" class="pokedex selected"
-                    >Pokédex</a
-                >
-                <a href="../Legendaries/index.html">Legendaries</a>
-                <a href="../Documentation/index.html">Documentation</a>
-            </nav>
-        </header>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla&family=Rubik&family=Source+Sans+3&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <img src="../../images/Logo.svg"Logo" />
+      <nav>
+        <a href="../../../index.html">Home</a>
+        <a href="../Pokedex/index.html" class="pokedex selected">Pokédex</a>
+        <a href="../Legendaries/index.html">Legendaries</a>
+        <a href="../Documentation/index.html">Documentation</a>
+      </nav>
+    </header>
+    <main>
+      <div class="container-search">
+        <h1 class="text">800 Pokemons for you to choose your favorite</h1>
+        <form action="search-pokemon" class="search">
+          <div class="input-search">
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Find your pokemon..."
+              class="search-text"
+            />
+            <button type="submit">Buscar</button>
+          </div>
+          <div class="container-menu-select">
+            <select name="type" id="type">
+              <option value="" disabled selected>Type</option>
+              <option value="1">Water</option>
+              <option value="2">Fire</option>
+              <option value="3">Grass</option>
+              <option value="4">Electric</option>
+              <option value="5">Psychic</option>
+              <option value="6">Ice</option>
+              <option value="7">Dragon</option>
+              <option value="8">Dark</option>
+              <option value="9">Fairy</option>
+              <option value="10">Normal</option>
+              <option value="11">Fighting</option>
+              <option value="12">Flying</option>
+              <option value="13">Poison</option>
+              <option value="14">Ground</option>
+              <option value="15">Rock</option>
+              <option value="16">Bug</option>
+              <option value="17">Steel</option>
+              <option value="18">Ghost</option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <div class="container-pokemons">
+        <div class="pokemon">
+          <div class="container-content">
+            <div class="container-name">
+              <h2 class="pokemon-name">Pikachu</h2>
+            </div>
+            <div class="container-stats">
+              <div class="attack stats">
+                <h3 class="stats-value">499</h3>
+                <span class="stats-label">attack</span>
+              </div>
+              <div class="defense stats">
+                <h3 class="stats-value">499</h3>
+                <span class="stats-label">defense</span>
+              </div>
+            </div>
+            <div class="container-types">
+              <span class="type">Grass</span>
+              <span class="type">Ground</span>
+            </div>
+          </div>
+          <div class="container-img">
+            <img src="../../images/CardBoxImg.svg" alt="" class="pokemon-img" />
+          </div>
+        </div>
+        <div class="pokemon">
+          <div class="container-content">
+            <div class="container-name">
+              <h2 class="pokemon-name">Pikachu</h2>
+            </div>
+            <div class="container-stats">
+              <div class="attack stats">
+                <h3 class="stats-value">499</h3>
+                <span class="stats-label">attack</span>
+              </div>
+              <div class="defense stats">
+                <h3 class="stats-value">499</h3>
+                <span class="stats-label">defense</span>
+              </div>
+            </div>
+            <div class="container-types">
+              <span class="type">Grass</span>
+              <span class="type">Ground</span>
+            </div>
+          </div>
+          <div class="container-img">
+            <img src="../../images/CardBoxImg.svg" alt="" class="pokemon-img" />
+          </div>
+        </div>
+        <div class="pokemon">
+          <div class="container-content">
+            <div class="container-name">
+              <h2 class="pokemon-name">Pikachu</h2>
+            </div>
+            <div class="container-stats">
+              <div class="attack stats">
+                <h3 class="stats-value">499</h3>
+                <span class="stats-label">attack</span>
+              </div>
+              <div class="defense stats">
+                <h3 class="stats-value">499</h3>
+                <span class="stats-label">defense</span>
+              </div>
+            </div>
+            <div class="container-types">
+              <span class="type">Grass</span>
+              <span class="type">Ground</span>
+            </div>
+          </div>
+          <div class="container-img">
+            <img src="../../images/CardBoxImg.svg" alt="" class="pokemon-img" />
+          </div>
+        </div>
+        <div class="pokemon">
+          <div class="container-content">
+            <div class="container-name">
+              <h2 class="pokemon-name">Pikachu</h2>
+            </div>
+            <div class="container-stats">
+              <div class="attack stats">
+                <h3 class="stats-value">499</h3>
+                <span class="stats-label">attack</span>
+              </div>
+              <div class="defense stats">
+                <h3 class="stats-value">499</h3>
+                <span class="stats-label">defense</span>
+              </div>
+            </div>
+            <div class="container-types">
+              <span class="type">Grass</span>
+              <span class="type">Ground</span>
+            </div>
+          </div>
+          <div class="container-img">
+            <img src="../../images/CardBoxImg.svg" alt="" class="pokemon-img" />
+          </div>
+        </div>
+        <div class="pokemon">
+          <div class="container-content">
+            <div class="container-name">
+              <h2 class="pokemon-name">Pikachu</h2>
+            </div>
+            <div class="container-stats">
+              <div class="attack stats">
+                <h3 class="stats-value">499</h3>
+                <span class="stats-label">attack</span>
+              </div>
+              <div class="defense stats">
+                <h3 class="stats-value">499</h3>
+                <span class="stats-label">defense</span>
+              </div>
+            </div>
+            <div class="container-types">
+              <span class="type">Grass</span>
+              <span class="type">Ground</span>
+            </div>
+          </div>
+          <div class="container-img">
+            <img src="../../images/CardBoxImg.svg" alt="" class="pokemon-img" />
+          </div>
+        </div>
+        <div class="pokemon">
+          <div class="container-content">
+            <div class="container-name">
+              <h2 class="pokemon-name">Pikachu</h2>
+            </div>
+            <div class="container-stats">
+              <div class="attack stats">
+                <h3 class="stats-value">499</h3>
+                <span class="stats-label">attack</span>
+              </div>
+              <div class="defense stats">
+                <h3 class="stats-value">499</h3>
+                <span class="stats-label">defense</span>
+              </div>
+            </div>
+            <div class="container-types">
+              <span class="type">Grass</span>
+              <span class="type">Ground</span>
+            </div>
+          </div>
+          <div class="container-img">
+            <img src="../../images/CardBoxImg.svg" alt="" class="pokemon-img" />
+          </div>
+        </div>
+        <div class="pokemon">
+          <div class="container-content">
+            <div class="container-name">
+              <h2 class="pokemon-name">Pikachu</h2>
+            </div>
+            <div class="container-stats">
+              <div class="attack stats">
+                <h3 class="stats-value">499</h3>
+                <span class="stats-label">attack</span>
+              </div>
+              <div class="defense stats">
+                <h3 class="stats-value">499</h3>
+                <span class="stats-label">defense</span>
+              </div>
+            </div>
+            <div class="container-types">
+              <span class="type">Grass</span>
+              <span class="type">Ground</span>
+            </div>
+          </div>
+          <div class="container-img">
+            <img src="../../images/CardBoxImg.svg" alt="" class="pokemon-img" />
+          </div>
+        </div>
+        <div class="pokemon">
+          <div class="container-content">
+            <div class="container-name">
+              <h2 class="pokemon-name">Pikachu</h2>
+            </div>
+            <div class="container-stats">
+              <div class="attack stats">
+                <h3 class="stats-value">499</h3>
+                <span class="stats-label">attack</span>
+              </div>
+              <div class="defense stats">
+                <h3 class="stats-value">499</h3>
+                <span class="stats-label">defense</span>
+              </div>
+            </div>
+            <div class="container-types">
+              <span class="type">Grass</span>
+              <span class="type">Ground</span>
+            </div>
+          </div>
+          <div class="container-img">
+            <img src="../../images/CardBoxImg.svg" alt="" class="pokemon-img" />
+          </div>
+        </div>
+        <div class="pokemon">
+          <div class="container-content">
+            <div class="container-name">
+              <h2 class="pokemon-name">Pikachu</h2>
+            </div>
+            <div class="container-stats">
+              <div class="attack stats">
+                <h3 class="stats-value">499</h3>
+                <span class="stats-label">attack</span>
+              </div>
+              <div class="defense stats">
+                <h3 class="stats-value">499</h3>
+                <span class="stats-label">defense</span>
+              </div>
+            </div>
+            <div class="container-types">
+              <span class="type">Grass</span>
+              <span class="type">Ground</span>
+            </div>
+          </div>
+          <div class="container-img">
+            <img src="../../images/CardBoxImg.svg" alt="" class="pokemon-img" />
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
