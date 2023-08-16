@@ -1,6 +1,7 @@
 :root {
   --yellow-gradient: linear-gradient(180deg, #f5db13 0%, #f2b807 100%);
   --third: #f5db13;
+  --yellow: #f2b807;
   --pharagraph: #212121;
 }
 
@@ -41,6 +42,7 @@ header nav {
 }
 
 header nav a {
+  padding: 2px;
   text-decoration: none;
   color: #000;
   font-size: 1.5em;
@@ -49,8 +51,16 @@ header nav a {
   line-height: normal;
 }
 
-.home img {
-  height: 7vh;
+header .selected {
+  font-weight: bold;
+  background-color: var(--yellow);
+  opacity: 0.7;
+  padding: 0px 5px 0px 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 main {
