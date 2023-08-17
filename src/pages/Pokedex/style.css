@@ -4,6 +4,7 @@
   --third: #f5db13;
   --yellow: #f2b807;
   --pharagraph: #212121;
+  --grey: #f6f7f9;
 }
 
 * {
@@ -139,6 +140,11 @@ main {
   color: rgba(33, 33, 33, 0.8);
 }
 
+.search-text:focus {
+  border: 0 none;
+  outline: 0;
+}
+
 .search-button {
   width: 5vw;
   margin-left: 0.7vw;
@@ -152,4 +158,92 @@ main {
   font-weight: 700;
   line-height: normal;
   color: rgba(33, 33, 33, 0.8);
+}
+
+.type-select {
+  width: 9.5vw;
+  margin-top: 3.5vh;
+  margin-left: 2vw;
+  padding: 1px;
+
+  border: none;
+  background: #f2f2f2;
+  box-shadow: 4px 4px 16px 0px rgba(1, 28, 64, 0.2);
+
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.type-select:focus {
+  border: 0 none;
+  outline: 0;
+}
+
+.container-pokemons {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 24.4vw 24.4vw 24.4vw;
+}
+
+.pokemon {
+  display: flex;
+  margin: 5vh 4vh;
+
+  margin-right: 0;
+
+  border-radius: 8px;
+
+  max-width: 24.4vw;
+  max-height: 12.7vh;
+}
+
+.container-img {
+  box-shadow: 4px 4px 4px 0px rgba(33, 33, 33, 0.1);
+  border-radius: 0 8px 8px 0;
+  -webkit-border-radius: 0 8px 8px 0;
+  -moz-border-radius: 0 8px 8px 0;
+  -ms-border-radius: 0 8px 8px 0;
+  -o-border-radius: 0 8px 8px 0;
+}
+
+.pokemon-img {
+  max-height: 12.7vh;
+}
+
+.container-content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2vw;
+  background-color: var(--grey);
+  box-shadow: 4px 4px 4px 0px rgba(33, 33, 33, 0.1);
+  border-radius: 8px 0 0 8px;
+  -webkit-border-radius: 8px 0 0 8px;
+  -moz-border-radius: 8px 0 0 8px;
+  -ms-border-radius: 8px 0 0 8px;
+  -o-border-radius: 8px 0 0 8px;
+}
+
+.container-stats,
+.container-types {
+  display: flex;
+}
+
+.pokemon-name {
+  text-shadow: 4px 4px 4px rgba(33, 33, 33, 0.1);
+
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.type {
+  color: #4b4b4b;
+  text-align: center;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
