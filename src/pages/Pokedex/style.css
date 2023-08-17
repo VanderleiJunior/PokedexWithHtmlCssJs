@@ -86,3 +86,70 @@ header .selected {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-search {
+  margin-top: 6.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+.text-pokemons {
+  font-weight: 700;
+}
+
+.search {
+  padding-top: 3vh;
+}
+
+.input-search {
+  display: flex;
+}
+
+.search-text {
+  width: 68vw;
+  height: 5vh;
+  border-radius: 40px;
+  border: none;
+  background: #f2f2f2;
+  box-shadow: 4px 4px 16px 0px rgba(1, 28, 64, 0.2);
+
+  padding-left: 2vw;
+
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(33, 33, 33, 0.8);
+}
+
+.search-button {
+  width: 5vw;
+  margin-left: 0.7vw;
+
+  border-radius: 40px;
+  border: none;
+  background: var(--yellow);
+  box-shadow: 4px 4px 16px 0px rgba(1, 28, 64, 0.2);
+
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: rgba(33, 33, 33, 0.8);
+}
